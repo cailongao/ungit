@@ -17,7 +17,7 @@ public class TestFatDemo {
         // 获取Statement
         // PreparedStatement 比 Statement 更加安全，可以有效方式sql注入的风险
         PreparedStatement preparedStatement = connection.prepareStatement("select * from student");
-        // sql语句的执行
+        // sql语句的执行啊啊啊
         ResultSet resultSet = preparedStatement.executeQuery();
         while(resultSet.next()){
             System.out.println(resultSet.getString("name"));
